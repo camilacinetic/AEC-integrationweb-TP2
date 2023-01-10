@@ -1,0 +1,155 @@
+/* Général */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: aliceblue;
+}
+
+.container {
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.active {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.bouton{
+	border: 1px solid black;
+	padding: 10px;
+	display:inline-block;
+}
+
+section {
+	padding: 5rem 0;
+}
+
+/* Header et Footer */
+
+.flex-header-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-left: 1rem;
+}
+
+nav ul a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+/* Page Accueil */
+
+#section-slogan {
+	background-image: url();
+}
+
+.slogan {
+	font-size: 3rem;
+	margin: 0;
+}
+
+.courte-description {
+	font-size: 1.5rem;
+	margin: 0;
+}
+
+.flex-accueil {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.flex-texte-video {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.texte-accueil {
+	width: 45%;
+}
+
+.video-accueil {
+	width: 45%;
+	border: 1px solid black;
+}
+
+/* Page Services */
+
+.container-cartes {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+
+.carte-service {
+	width: 32%;
+	border: 1px solid black;
+	padding: 1rem;
+	text-align: center;
+}
+
+.carte-service img{
+	width:100%;
+}
+
+.flex-clients{
+	display:flex;
+	justify-content:space-around;
+}
+
+.client{
+	width:20%;
+	text-align:center;
+}
+
+.client img{
+	border-radius: 50%;
+}
+
+/* Services individuels */
+
+.flex-service-individuel{
+	display:flex;
+	justify-content:space-between;
+
+}
+
+.service-principal{
+	width:65%;
+}
+
+#section-services aside{
+	width: 25%;
+}
+
+#section-services .titre{
+	margin-top:0;
+}
+
+.carte-autre-service{
+	border: 1px solid black;
+	padding: 1rem;
+	text-align:center;
+}
+
+.carte-autre-service img{
+	width:100%;
+}
+
+.carte-b{
+	margin-bottom:2rem;
+}
